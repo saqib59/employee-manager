@@ -19,7 +19,7 @@ jQuery(document).ready(function ($) {
 
     // Function to reset all sort indicators
     function resetSortIndicators() {
-        $('#nameSortIndicator, #emailSortIndicator, #ageSortIndicator, #dateSortIndicator').text('');
+        $('#nameSortIndicator, #emailSortIndicator, #ageSortIndicator, #date_of_hiringSortIndicator').text('');
     }
 
     // Function to update the sort indicator for the given field

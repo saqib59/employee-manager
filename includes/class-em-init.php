@@ -38,8 +38,8 @@ if ( ! class_exists( 'EM_Init' ) ) {
                 'public' => true,
                 'has_archive' => true,
                 'rewrite' => array('slug' => 'employees'),
-                'supports' => array('title', 'editor'),
-                'show_in_rest' => true, // if you hide this then the block editor will be disabled
+                'supports' => array( 'title', 'editor', 'custom-fields'),
+                'show_in_rest' => true, 
             );
 
             register_post_type('employee', $args);
